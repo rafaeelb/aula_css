@@ -1,0 +1,55 @@
+/* criando variáveis */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+:root{
+    --cor-destaque: #000000;
+    --tamanho-fonte: 40px;
+}
+
+/* utilizando variáveis */
+*{
+    font-family: "Rubik", sans-serif;
+}
+h2{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque);
+}
+
+h4{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque);
+}
+
+#diva_px{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
+
+#diva_cm{
+    width: 30cm;
+    height: 30cm;
+    background-color: yellow;
+}
+
+#diva_mm{
+    width: 30mm;
+    height: 30mm;
+    background-color: tomato;
+}
+
+#diva_in{
+    width: 30in;
+    height: 30in;
+    background-color: beige;
+}
+
+
+/* 
+p{
+    font-size: 30px;
+    color: chocolate;
+} */
+
